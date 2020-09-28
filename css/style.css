@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: arial, sans-serif;
+}
+.title {
+  text-align: center;
+  text-transform: capitalize;
+}
+.heading {
+  color: orangered;
+  font-size: 70px;
+}
+.navigation ul {
+  list-style-type: none;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-top: 40px;
+  text-align: center;
+}
+.navigation li {
+  display: inline-block;
+}
+.navigation a {
+  color: #fff;
+  background: #395870;
+  background: linear-gradient(#54a7e3, #103652);
+  padding: 24px 40px;
+  text-decoration: none;
+}
+
+.navigation a:hover {
+  background: #1169b0;
+  box-shadow: inset 0 0 10px 1px rgba(0, 0, 0, 0.3);
+}
+
+.navigation li:first-child a {
+  border-radius: 4px 0 0 4px;
+}
+.navigation li:last-child a {
+  border-radius: 0 4px 4px 0;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 50px;
+}
+
+.gallery .item {
+  width: 30%;
+  height: 220px;
+  display: inline-block;
+  margin: 5px;
+  box-shadow: 0px 3px 6px #bcbcbc;
+}
+.gallery .item img {
+  width: 100%;
+  height: 100%;
+  border: 5px solid #dedede;
+}
+
+@media (max-width: 900px) {
+  .last-3 {
+    margin-top: 50px;
+  }
+}
+
+@media (max-width: 700px) {
+  .heading {
+    font-size: 50px;
+  }
+}
+/* Hide scrollbar for Chrome, Safari and Opera */
+body::-webkit-scrollbar {
+  /* display: none; */
+  width: 5px;
+}
+::-webkit-scrollbar-track {
+  background: #12e02e;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgb(255, 3, 3);
+}
+/* Hide scrollbar for IE, Edge and Firefox */
+body {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}

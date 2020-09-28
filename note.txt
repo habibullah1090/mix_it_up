@@ -1,0 +1,28 @@
+<div class="product mix b">
+					<img src="images/b1.jpg" alt="">
+				</div>
+				<div class="product mix b">
+					<img src="images/b2.jpg" alt="">
+				</div>
+				<div class="product mix bi">
+					<img src="images/bi1.jpg" alt="">
+				</div>
+				<div class="product mix bi">
+					<img src="images/bi2.jpg" alt="">
+				</div>
+				<div class="product mix ca">
+					<img src="images/ca1.jpg" alt="">
+				</div>
+				<div class="product mix ca">
+					<img src="images/ca2.jpg" alt="">
+				</div>
+				<div class="product mix l">
+					<img src="images/l1.jpg" alt="">
+				</div>
+				<div class="product mix l">
+					<img src="images/l2.jpg" alt="">
+				</div>
+				<div class="product mix l">
+					<img src="images/l3.jpg" alt="">
+				</div>
+			</div>
